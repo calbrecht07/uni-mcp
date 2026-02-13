@@ -1,0 +1,90 @@
+[
+  {
+    "intent": "retrieve_data",
+    "description": "The user wants to locate, view, or retrieve existing information from an integrated sources",
+    "example_prompts": [
+      "Find the Jira ticket related to the login bug.",
+      "Show me messages in Slack about Project Apollo.",
+      "Can you get the onboarding notes from Notion?",
+      "What did I say in the stand-up yesterday?",
+      "List all high-priority bugs assigned to me."
+    ]
+  },
+  {
+    "intent": "create_data",
+    "description": "The user wants to create a new structured record in an external system",
+    "example_prompts": [
+      "Create a new bug report in Jira.",
+      "Log this as an issue in the backlog.",
+      "Open a ticket for this request.",
+      "I want to make a task for this.",
+      "Add this to Jira as a feature request."
+    ]
+  },
+  {
+    "intent": "summarize",
+    "description": "The user is requesting a high-level summary of content retrieved from data sources, often as a follow-up to a search.",
+    "example_prompts": [
+      "Summarize this Slack conversation.",
+      "Give me a recap of messages about the release.",
+      "Can you TL;DR the onboarding notes?",
+      "Summarize everything said about the budget.",
+      "Give me a quick overview of this discussion."
+    ]
+  },
+  {
+    "intent": "ask_question",
+    "description": "The user is asking a general or factual question that may require explanation or assistant guidance, unrelated to a specific record.",
+    "example_prompts": [
+      "What is a Jira epic?",
+      "How do I search for something in Notion?",
+      "What does 'in progress' mean in Jira?",
+      "How does Slack threading work?",
+      "Can I log an issue from here?"
+    ]
+  },
+  {
+    "intent": "system_status",
+    "description": "The user wants to know whether connected data sources like Jira, Slack, or Notion are active, synced, or authorized.",
+    "example_prompts": [
+      "Is Jira connected?",
+      "Are all my integrations working?",
+      "Check if Notion is still linked.",
+      "What tools are available right now?",
+      "Is Slack authorization still valid?"
+    ]
+  },
+  {
+    "intent": "smalltalk",
+    "description": "The user is engaging in casual, social, or friendly conversation that doesn't require tool use or structured output.",
+    "example_prompts": [
+      "Hey there!",
+      "Thanks for the help!",
+      "You're doing great.",
+      "That's cool.",
+      "How's your day going?"
+    ]
+  },
+  {
+    "intent": "ambiguous",
+    "description": "The user's message is vague, unclear, or open-ended, and needs clarification before action can be taken.",
+    "example_prompts": [
+      "Can you handle this?",
+      "Do it.",
+      "Let’s go ahead.",
+      "You know what I mean.",
+      "Make it happen."
+    ]
+  },
+  {
+    "intent": "feedback_or_meta",
+    "description": "The user is offering feedback about the assistant, expressing frustration, or commenting on its output or behavior.",
+    "example_prompts": [
+      "That didn’t work.",
+      "You misunderstood me.",
+      "This isn’t helping.",
+      "You’re wrong about that.",
+      "That’s not what I meant."
+    ]
+  }
+]
