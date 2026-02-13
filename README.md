@@ -32,6 +32,6 @@ To solve the adoption hurdle, I built:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Backend:** Python (FastAPI), Pydantic, Redis
 * **Frontend:** React, Vite, Tailwind CSS, Shadcn/UI
