@@ -2,12 +2,12 @@
 
 **Note:** This repository is a sanitised technical showcase of a private development project. It is maintained to demonstrate full-stack architecture, intent-based routing, and cross-platform identity management.
 
-## 🚀 Overview
+##  Overview
 Uni-MCP unifies fragmented enterprise tools into a single intelligent layer. It allows teams to query documentation and manage tasks across Slack, Notion, and Jira without switching platforms.
 
 ---
 
-## 🏗️ Technical Architecture & "Spikes"
+##  Technical Architecture & "Spikes"
 
 ### 1. Intelligence & Routing Layer (`/backend/services`)
 Instead of a "brute force" approach that sends every query to costly LLM's, I designed an **Intent Recognition Gateway**:
@@ -25,7 +25,7 @@ To solve the adoption hurdle, I built:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 * `/backend`: FastAPI-based service layer with modular routers and providers.
 * `/frontend`: React/Vite dashboard for managing integrations and monitoring agent activity.
 * `package-lock.json` & `requirements.txt`: Locked dependencies for reproducible builds.
